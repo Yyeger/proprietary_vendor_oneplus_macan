@@ -5832,6 +5832,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/macan/proprietary/vendor/qprof/verison.txt:$(TARGET_COPY_OUT_VENDOR)/qprof/verison.txt
 
 PRODUCT_PACKAGES += \
+# seems like stuff like this " com.qti.stats.asd \" is missing here
 # [CLEANER]     com.android.hardware.cas \
     com.google.android.widevine.nonupdatable \
     vendor.oplus.hardware.engineer.aidl \

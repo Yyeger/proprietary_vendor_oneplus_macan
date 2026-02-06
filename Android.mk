@@ -6,4 +6,6 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),macan)
 
+# radio file could be needed here, for example: $(call add-radio-file-sha1-checked,radio/abl.img,fcce3598958c93c8361892237194799222141710)
+
 endif

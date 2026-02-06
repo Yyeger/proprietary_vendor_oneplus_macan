@@ -7,6 +7,8 @@ soong_namespace {
 	],
 }
 
+// this file could need rework based on older device trees out there
+
 prebuilt_apex {
 	name: "com.android.hardware.cas",
 	owner: "oneplus",
